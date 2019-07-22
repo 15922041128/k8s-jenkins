@@ -13,6 +13,7 @@ public class TestController {
     @ResponseBody
     @RequestMapping("/hello")
     public String hello() {
+        System.out.println("in controller");
         return "hello";
     }
 }
